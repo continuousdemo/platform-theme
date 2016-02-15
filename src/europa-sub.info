@@ -1,0 +1,15 @@
+name = EuropaSub
+description = NextEuropa subtheme
+base theme = europa
+core = 7.x
+php = 5.2.4
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = styles/theme.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = scripts/theme.js
