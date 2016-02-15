@@ -1,0 +1,13 @@
+# Ignore some folders
+.tmp
+bower_components
+build
+dist
+docs
+node_modules
+
+# Ignore OS specific files
+.DS_Store
+
+# Other ignored files
+npm-debug.log

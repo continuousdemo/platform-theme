@@ -1,0 +1,42 @@
+{
+  "name": "platform-theme-dev",
+  "version": "0.0.0",
+  "description": "platform-theme-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ec-europa/platform-theme-dev.git"
+  },
+  "homepage": "https://github.com/ec-europa/platform-theme-dev",
+  "private": true,
+  "license": "EUPL-1.1",
+  "scripts": {
+    "postinstall": "bower install",
+    "bower": "bower",
+    "eslint": "eslint -f stylish src/** scripts/** test/**; exit 0",
+    "stylelint": "stylelint src/**/*.scss --syntax scss; exit 0",
+    "lint": "npm run eslint  && npm run stylelint",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta8",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "bower": "^1.7.7",
+    "conventional-changelog-cli": "^1.1.1",
+    "eslint": "^1.0.0",
+    "eslint-config-airbnb": "^5.0.1",
+    "eslint-plugin-react": "^3.16.1",
+    "ghooks": "^1.0.3",
+    "stylelint": "^4.3.3",
+    "stylelint-config-standard": "^3.0.0",
+    "validate-commit-msg": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=5.0",
+    "npm": "~3.3.6"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  }
+}
