@@ -2,5 +2,8 @@
   "name": "platform-theme-dev",
   "description": "platform-theme-dev",
   "license": "EUPL-1.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "ne-theme-drupal7-dev": "ec-europa/ne-theme-drupal7-dev#4ba0582c599229af16b7e9a6f78a146d352ef5e7"
+  }
 }
