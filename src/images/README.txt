@@ -1,0 +1,1 @@
+You should put here images needed by Drupal or by the generic theme (logos, backgrounds) that are not provided by Next EUROPA framework.

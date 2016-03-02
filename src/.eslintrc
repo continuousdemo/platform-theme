@@ -1,0 +1,4 @@
+---
+  globals:
+    Drupal: true
+    jQuery: true

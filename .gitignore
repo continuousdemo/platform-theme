@@ -1,9 +1,9 @@
 # Ignore some folders
+.nyc_output
 .tmp
 bower_components
 build
 dist
-docs
 node_modules
 
 # Ignore OS specific files

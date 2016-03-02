@@ -27,8 +27,11 @@ if (program.clean) {
 tasks.push(done => async.parallel([
   styles.compile,
   scripts.bundle,
+  scripts.bundleVendors,
   copy.build,
 ], done));
+
+tasks.push(scripts.uglify);
 
 tasks.push(images.optimize);
 tasks.push(styles.dist);
