@@ -6,11 +6,11 @@ const del = require('del');
 module.exports = {
   build: (done) => {
     const startTime = Date.now();
-    console.log('Clean `.tmp`, `build` and `dist`: started');
-    return del(['.tmp', 'build', 'dist'], { dot: true }).then(() => {
+    console.log('Clean `.tmp` and `build`: started');
+    return del(['.tmp', 'build'], { dot: true }).then(() => {
       const diff = Date.now() - startTime;
       console.log(`Clean: done (${diff}ms)`);
       done();
     });
-  }
+  },
 };

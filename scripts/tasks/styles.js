@@ -10,12 +10,12 @@ const async = require('async');
 
 function minifyCss(processors, file, done) {
   gulp.src(file)
-    // .pipe($.sourcemaps.init())
+    .pipe($.sourcemaps.init())
     .pipe(gulp.dest('build/styles'))
     .pipe(postcss(processors, {
       to: file,
     }))
-    // .pipe($.sourcemaps.write('.'))
+    .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest('build/styles'))
     .on('end', done);
 }
