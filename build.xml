@@ -6,6 +6,6 @@
         <exec command="npm run bower install" passthru="true" />
     </target>
     <target name="build" description="Build the theme">
-        <exec command="npm run build" passthru="true" />
+        <exec command="npm run build -- -c" passthru="true" />
     </target>
 </project>
