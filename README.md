@@ -1,3 +1,5 @@
+[![Build Status](https://status.continuousphp.com/git-hub/ec-europa/platform-theme-dev?token=2deae87d-7311-46ff-9926-cf6cf9284890)](https://continuousphp.com/git-hub/ec-europa/platform-theme-dev)
+
 # Platform Theme
 
 ## Style Guide
