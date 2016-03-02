@@ -1,3 +1,13 @@
+<a name="0.1.0"></a>
+# 0.1.0 (2016-03-02)
+
+
+### Features
+
+* **merge:** merge ne-theme-drupal7-dev into platform-theme-dev ([5b20bf5](https://github.com/ec-europa/platform-theme-dev/commit/5b20bf5))
+
+
+
 <a name="0.0.2"></a>
 ## 0.0.2 (2016-02-15)
 
