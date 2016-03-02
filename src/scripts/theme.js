@@ -27,17 +27,10 @@ Drupal.behaviors.europa_tabs = { attach: tab };
 Drupal.behaviors.equal_blocks = { attach: () => equalHeight(Drupal.europa.breakpoints) };
 
 // Collapse
-Drupal.europa.collapsing = (showText, hideText) => {
-  if (!showText) {
-    showText = Drupal.t("Show");
-  }
-
-  if (!hideText) {
-    hideText = Drupal.t("Hide");
-  }
-
-  return collapse(showText, hideText);
-};
+Drupal.europa.collapsing = (
+  showText = Drupal.t('Show'),
+  hideText = Drupal.t('Hide')
+) => collapse(showText, hideText);
 
 Drupal.behaviors.europa_collapse = {
   attach: () => Drupal.europa.collapsing(),
@@ -63,11 +56,7 @@ window.PiwikDTT = {
    * @param {data}
    *  Defines category in piwik.
    */
-  sendTrack: (triggerValue, action, category, value, data) => {
-    if (typeof action === 'undefined' || action === null || action === '') {
-      action = 'trackEvent';
-    }
-
+  sendTrack: (triggerValue, action = 'trackEvent', category, value, data) => {
     // Trigger only once.
     if (triggerValue === 1) {
       const innerElements = (triggerValue + action + category + value + data);
