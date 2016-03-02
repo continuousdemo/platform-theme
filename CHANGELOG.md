@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/ec-europa/platform-theme-dev/compare/v0.1.0...v0.1.1) (2016-03-02)
+
+
+### Bug Fixes
+
+* **dependencies:** remove gulp-rollup in favour of rollup ([ce9212c](https://github.com/ec-europa/platform-theme-dev/commit/ce9212c))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2016-03-02)
 
