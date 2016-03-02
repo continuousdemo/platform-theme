@@ -2,3 +2,4 @@
   globals:
     Drupal: true
     jQuery: true
+    _paq: true
