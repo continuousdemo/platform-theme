@@ -19,15 +19,19 @@ itself. This can be done using Node.js and npm:
 
 ```bash
 npm install
-npm run bower update
 ```
 
-This will install Bower and Gulp locally as this is the only so far to make it build correctly on ContinuousPHP.
-
-Note: if you have Phing installed globally, you can also use the command:
+This will install Bower and Gulp locally as this is the only so far to make it build correctly on ContinuousPHP. Then, you can build the theme:
 
 ```bash
-phing
+npm run build
+```
+
+Note: if you have Phing installed globally, you can also use the following command which will install the development environment and build the theme:
+
+```bash
+composer install
+./bin/phing build-theme-dev
 ```
 
 ## Lint the files
@@ -39,16 +43,4 @@ npm run eslint
 npm run stylelint
 # Run both linters
 npm run lint
-```
-
-## Build the theme
-
-```bash
-npm run build
-```
-
-Phing alias:
-
-```bash
-phing build
 ```
