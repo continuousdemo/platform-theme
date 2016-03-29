@@ -1,7 +1,7 @@
 {
   "name": "platform-theme-dev",
   "version": "0.1.2",
-  "description": "Next EUROPA Drupal 7 theme",
+  "description": "NextEuropa Platform Theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/ec-europa/platform-theme-dev.git"
@@ -21,17 +21,15 @@
   "devDependencies": {
     "async": "^1.5.2",
     "autoprefixer": "^6.3.4",
-    "babel-eslint": "^5.0.0",
+    "babel-eslint": "^6.0.0",
     "babel-preset-es2015-rollup": "^1.1.1",
     "bower": "^1.7.7",
     "commander": "^2.9.0",
     "conventional-changelog-cli": "^1.1.1",
-    "cpy": "^4.0.0",
     "cssnano": "^3.5.2",
     "del": "^2.2.0",
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.3",
     "ghooks": "^1.0.3",
     "glob": "^7.0.3",
     "gulp": "^3.9.1",
@@ -45,15 +43,12 @@
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
-    "mkdirp": "^0.5.1",
-    "node-sass": "^3.4.2",
     "node-sass-import-once": "^1.2.0",
     "postcss-sprites": "^3.1.0",
     "postcss-svgo": "^2.1.2",
     "postcss-url": "^5.1.1",
     "rollup": "^0.25.4",
     "rollup-plugin-babel": "^2.4.0",
-    "rollup-plugin-replace": "^1.1.0",
     "stylelint": "^5.1.0",
     "stylelint-config-standard": "^4.0.1",
     "validate-commit-msg": "^2.4.1"

@@ -1,0 +1,11 @@
+{
+  "require": {
+    "phing/phing": "~2.10",
+    "php": ">=5.4.0"
+  },
+  "prefer-stable": true,
+  "config": {
+    "bin-dir": "bin/",
+    "process-timeout": 1200
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "platform-theme-dev",
-  "description": "Next EUROPA Drupal 7 Theme",
+  "description": "NextEuropa Platform Theme",
   "license": "EUPL-1.1",
   "private": true,
   "dependencies": {
-    "ne-theme-framework-dev": "ec-europa/ne-theme-framework-dev#1954aaa6735440ded79583b180ace736d991fe93"
+    "ne-theme-framework-dev": "ec-europa/ne-theme-framework-dev#23d46810e3cd2247e6a6550ebcbc879179075e55"
   }
 }

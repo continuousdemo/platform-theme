@@ -1,10 +1,15 @@
-# Ignore some folders
-.nyc_output
-.tmp
-bower_components
-build
-dist
-node_modules
+# Ignore metadata from common editors and IDEs.
+*.sublime-project
+*.sublime-workspace
+.idea/
+nbproject/
+
+# Ignore build folders.
+bin/
+bower_components/
+build/
+node_modules/
+vendor/
 
 # Ignore OS specific files
 .DS_Store

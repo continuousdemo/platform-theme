@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<project name="Next EUROPA Drupal 7 Theme" default="install">
-    <target name="install" description="Install the development environment">
-        <exec command="npm install" passthru="true" />
-        <exec command="npm run bower install" passthru="true" />
+<project name="NextEuropa Platform Theme" default="help">
+
+    <target name="help" description="Show help message">
+        <echo msg="Run Phing with -l parameter to list the available commands" />
     </target>
-    <target name="build" description="Build the theme">
+
+    <target name="build-theme-dev" description="Install dependencies and build the theme">
+        <exec command="npm install" passthru="true" />
         <exec command="npm run build -- -c" passthru="true" />
     </target>
+
+    <target name="rebuild-theme-dev" description="Rebuild the theme (without cleaning)">
+        <exec command="npm run build" passthru="true" />
+    </target>
+
 </project>
