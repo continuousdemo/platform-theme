@@ -27,7 +27,7 @@ This will install Bower and Gulp locally as this is the only so far to make it b
 npm run build
 ```
 
-Note: if you have Phing installed globally, you can also use the following command which will install the development environment and build the theme:
+Note: if you want to use Phing, you can also use the following commands which will install the development environment and build the theme:
 
 ```bash
 composer install
