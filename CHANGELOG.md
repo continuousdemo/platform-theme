@@ -1,5 +1,5 @@
 <a name="0.1.3"></a>
-## [0.1.3](https://github.com/ec-europa/platform-theme-dev/compare/v0.1.2...v0.1.3) (2016-03-29)
+## [0.1.3](https://github.com/ec-europa/platform-theme/compare/v0.1.2...v0.1.3) (2016-03-29)
 
 
 ### Miscellaneous
@@ -10,24 +10,24 @@
 
 
 <a name="0.1.2"></a>
-## [0.1.2](https://github.com/ec-europa/platform-theme-dev/compare/v0.1.1...v0.1.2) (2016-03-02)
+## [0.1.2](https://github.com/ec-europa/platform-theme/compare/v0.1.1...v0.1.2) (2016-03-02)
 
 
 ### Bug Fixes
 
-* **unused:** remove unused file ([f2a2f24](https://github.com/ec-europa/platform-theme-dev/commit/f2a2f24))
-* **unused:** remove unused file ([1ebf912](https://github.com/ec-europa/platform-theme-dev/commit/1ebf912))
-* **vendors:** correct imports ([3e78f6b](https://github.com/ec-europa/platform-theme-dev/commit/3e78f6b))
+* **unused:** remove unused file ([f2a2f24](https://github.com/ec-europa/platform-theme/commit/f2a2f24))
+* **unused:** remove unused file ([1ebf912](https://github.com/ec-europa/platform-theme/commit/1ebf912))
+* **vendors:** correct imports ([3e78f6b](https://github.com/ec-europa/platform-theme/commit/3e78f6b))
 
 
 
 <a name="0.1.1"></a>
-## [0.1.1](https://github.com/ec-europa/platform-theme-dev/compare/v0.1.0...v0.1.1) (2016-03-02)
+## [0.1.1](https://github.com/ec-europa/platform-theme/compare/v0.1.0...v0.1.1) (2016-03-02)
 
 
 ### Bug Fixes
 
-* **dependencies:** remove gulp-rollup in favour of rollup ([ce9212c](https://github.com/ec-europa/platform-theme-dev/commit/ce9212c))
+* **dependencies:** remove gulp-rollup in favour of rollup ([ce9212c](https://github.com/ec-europa/platform-theme/commit/ce9212c))
 
 
 
@@ -37,7 +37,7 @@
 
 ### Features
 
-* **merge:** merge ne-theme-drupal7-dev into platform-theme-dev ([5b20bf5](https://github.com/ec-europa/platform-theme-dev/commit/5b20bf5))
+* **merge:** merge ne-theme-drupal7-dev into platform-theme ([5b20bf5](https://github.com/ec-europa/platform-theme/commit/5b20bf5))
 
 
 
@@ -47,7 +47,7 @@
 
 ### Features
 
-* **base:** basic theme ([bc7bb30](https://github.com/ec-europa/platform-theme-dev/commit/bc7bb30))
+* **base:** basic theme ([bc7bb30](https://github.com/ec-europa/platform-theme/commit/bc7bb30))
 
 
 
@@ -57,4 +57,4 @@
 
 ### Features
 
-* **init:** initial commit ([da301e6](https://github.com/ec-europa/platform-theme-dev/commit/da301e6))
+* **init:** initial commit ([da301e6](https://github.com/ec-europa/platform-theme/commit/da301e6))

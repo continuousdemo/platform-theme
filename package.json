@@ -1,12 +1,12 @@
 {
-  "name": "platform-theme-dev",
+  "name": "platform-theme",
   "version": "0.1.3",
   "description": "NextEuropa Platform Theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ec-europa/platform-theme-dev.git"
+    "url": "https://github.com/ec-europa/platform-theme.git"
   },
-  "homepage": "https://github.com/ec-europa/platform-theme-dev",
+  "homepage": "https://github.com/ec-europa/platform-theme",
   "private": true,
   "license": "EUPL-1.1",
   "scripts": {
