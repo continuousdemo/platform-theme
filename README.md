@@ -1,4 +1,4 @@
-[![Build Status](https://status.continuousphp.com/git-hub/ec-europa/platform-theme-dev?token=2deae87d-7311-46ff-9926-cf6cf9284890)](https://continuousphp.com/git-hub/ec-europa/platform-theme-dev)
+[![Build Status](https://status.continuousphp.com/git-hub/ec-europa/platform-theme?token=a68c0ac0-3762-48d4-a856-6b635b62acdc)](https://continuousphp.com/git-hub/ec-europa/platform-theme)
 
 # Platform Theme
 
@@ -43,4 +43,9 @@ npm run eslint
 npm run stylelint
 # Run both linters
 npm run lint
+```
+Or with Phing:
+
+```bash
+./bin/phing lint
 ```
