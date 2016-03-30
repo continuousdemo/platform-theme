@@ -6,13 +6,16 @@
         <echo msg="Run Phing with -l parameter to list the available commands" />
     </target>
 
-    <target name="build-theme-dev" description="Install dependencies and build the theme">
+    <target name="install-build-dependencies" description="Install dependencies">
         <exec command="npm install" passthru="true" />
+    </target>
+
+    <target name="build-theme-dev" description="Build the theme" depends="install-build-dependencies">
         <exec command="npm run build -- -c" passthru="true" />
     </target>
 
-    <target name="rebuild-theme-dev" description="Rebuild the theme (without cleaning)">
-        <exec command="npm run build" passthru="true" />
+    <target name="lint" description="Lint the files">
+        <exec command="npm run lint" passthru="true" />
     </target>
 
 </project>
