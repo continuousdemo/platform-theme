@@ -1,3 +1,17 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/ec-europa/platform-theme/compare/v0.1.3...v0.2.0) (2016-03-30)
+
+
+### Bug Fixes
+
+* **eslint:** fix eslint configuration ([f0a6dc6](https://github.com/ec-europa/platform-theme/commit/f0a6dc6))
+
+### Features
+
+* **phing:** add lint command and refactor build ([547b1b2](https://github.com/ec-europa/platform-theme/commit/547b1b2))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/ec-europa/platform-theme/compare/v0.1.2...v0.1.3) (2016-03-29)
 
